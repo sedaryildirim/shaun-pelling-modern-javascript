@@ -28,7 +28,7 @@
 ## Screenshot
 
 <div align="center">
-    <img src="imgs/Screenshot.png" alt="Logo">
+    <img src="./imgs/screenshot.png" alt="Logo">
 </div>
 
 <!-- ABOUT -->
@@ -68,4 +68,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [stars-url]: https://github.com/sedaryildirim/shaun-pelling-modern-javascript/stargazers
 [license-shield]: https://img.shields.io/github/license/sedaryildirim/shaun-pelling-modern-javascript?label=license&style=for-the-badge
 [license-url]: https://github.com/sedaryildirim/shaun-pelling-modern-javascript/blob/main/LICENSE
-[product-screenshot]: imgs/Screenshot.png
+[product-screenshot]: ./imgs/screenshot.png
