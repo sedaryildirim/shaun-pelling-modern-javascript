@@ -180,3 +180,53 @@ let html = `
 console.log(html);
 
 // Objects - Arrays, Dates, Literals etc
+// array syntax
+// below is an array stored in a variable
+let ninjas = ['sid', 'ryu', 'chun-li'];
+console.log(ninjas);
+
+// get  position in array
+console.log(ninjas[1]);
+
+// override a position in an array
+// changes ryu to ken
+ninjas[1] = 'ken';
+console.log(ninjas);
+
+// can store strings, numbers ec
+let ages = [20, 25, 30, 35];
+console.log(ages[2]);
+
+// can also store different date types
+let random = ['sid', 'ryu', 1, 2];
+console.log(random);
+
+// functions work on arrays
+// below logs how many items in an array
+console.log(ninjas.length);
+
+// array methods
+// join array date sets together
+let results = ninjas.join(',');
+console.log(results);
+
+// indexof shows the position of data in an array
+let resultsTwo = ninjas.indexOf('chun-li');
+console.log(resultsTwo);
+
+// concat
+// concatenates two arrays together
+let resultThree = ninjas.concat(['ken', 'crystal']);
+console.log(resultThree);
+
+// push
+// push a new value onto array, return length of new array
+let resultFour = ninjas.push('ken');
+console.log(resultFour);
+
+// pop
+// takes off end value
+let resultFive = ninjas.pop();
+console.log(resultFive);
+
+// null and undefined
