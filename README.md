@@ -16,7 +16,7 @@
 <h3 align="center">Angela Yu Web Developer Course</h3>
 
   <p align="center">
-    Course files for working through Angela' Yu's 2024 Web Dev Boot camp
+    Course files for working through Shaun Pelling's Modern Javascript Course
     <br />
     <br />
     <br />
