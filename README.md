@@ -44,7 +44,11 @@ Course files for Shaun Pelling's Modern Day Javascript for me to post my own sol
 ## Timeline
 
 ```
-07/01/2023 - completed initial git repo setup for course structure and completed section 1
+08/01/2023 - completed chapter 1 and started chapter 2
+```
+
+```
+07/01/2023 - completed initial git repo setup for course structure and started chapter 1
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

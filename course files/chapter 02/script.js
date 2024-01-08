@@ -230,3 +230,50 @@ let resultFive = ninjas.pop();
 console.log(resultFive);
 
 // null and undefined
+// null is an intentional value
+let ageNew = null;
+console.log(ageNew, ageNew +3, 'the age is ${ageNew}');
+
+// booleans
+// true and false
+// booleans and comparisons
+console.log(true, false);
+
+// methods can return booleans
+let emailNew = 'email@email.com'
+let resultEmailNew = emailNew.includes('@');
+console.log(resultEmailNew);
+
+// comparisons operators
+// == is something equal to something
+let ageComparison = 25;
+console.log(ageComparison == 25);
+console.log(ageComparison == 30);
+
+// != negates - is age not equal to 25
+console.log(ageComparison != 30);
+
+// > greater than
+console.log(ageComparison > 20);
+
+// < less than
+console.log(ageComparison < 20);
+
+// <= less than or equal to
+console.log(ageComparison <= 20);
+
+// >= greater than or equal to
+console.log(ageComparison >= 20);
+
+// loose comparison is two ==
+// strict comparison is an extra =, so == would be === or != would be !==
+// strict checks data types and compares
+
+// type conversion
+// turning one data type into another data type
+let scoreNew = '100';
+
+// score function turns score variable into a number
+scoreNew = Number(scoreNew);
+console.log(scoreNew +1);
+
