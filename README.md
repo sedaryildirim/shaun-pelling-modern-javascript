@@ -44,6 +44,10 @@ Course files for Shaun Pelling's Modern Day Javascript for me to post my own sol
 ## Timeline
 
 ```
+10/01/2023 - created chapters 05 and 06
+```
+
+```
 09/01/2023 - completed chapter 3 and uploaded chapter 4 files
 ```
 
