@@ -52,3 +52,23 @@ const calcNewArea = (radius) => {
 const areaNew = calcArea(5);
 console.log(areaNew);
 
+// arrow functions
+
+const calcAreaNew = radius => 3.14 * radius**2;
+
+const areaThree = calcAreaNew(5);
+console.log('area is:', areaThree);
+
+// practice
+
+const greetNew = function(){
+    return 'hello, world';
+}
+
+const bill = function(products, tax){
+    let total = 0;
+    for(let i = 0; 1 < products.length; i++){
+        total += products[i] * tax;
+    }
+    return total;
+}
