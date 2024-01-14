@@ -61,27 +61,29 @@ console.log('area is:', areaThree);
 
 // practice
 
-const greetNew = function(){
-    return 'hello, world';
-}
+// const greetNew = function(){
+//     return 'hello, world';
+// }
 
-const bill = function(products, tax){
-    let total = 0;
-    for(let i = 0; 1 < products.length; i++){
-        total += products[i] * tax;
-    }
-    return total;
-}
+// const bill = function(products, tax){
+//     let total = 0;
+//     for(let i = 0; 1 < products.length; i++){
+//         total += products[i] * tax;
+//     }
+//     return total;
+// }
 
 // possible solution
-const greetNew = () => {
-    return 'hello, world';
-};
+const greetNew = () => 'hello, world';
+const result = greetNew();
+console.log(result);
 
-const bill = (products, tax = 0.1) => {
+const bill = (products, tax) => {
     let total = 0;
-    for (let i = 0; i < products.length; i++) {
-        total += products[i] * (1 + tax);
+    for(let i = 0; i < products.length; i++){
+        total += products[i] + products[i]  * tax;
     }
     return total;
-};
+;}
+
+console.log(bill([10, 15, 30], 0.2));
