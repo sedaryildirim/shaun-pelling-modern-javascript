@@ -57,24 +57,12 @@ if(ninjas.length > 3){
     console.log("there are more than 3 ninjas")
 }
 
-const password = 'passw';
+const password = 'password';
 
 if(password.length >=8 ){
     console.log('that password is fine')
 } else {
-    console.log('that password isnt long enough')
-};
-
-// else statements
-
-const passwordNew = 'oassq';
-
-if(passwordNew.length >=12 ){
-    console.log('that password is very strong')
-} else if (passwordNew.length >=8 ){
-    console.log('that password is fine')
-} else {
-    console.log('that password isnt long enough')
+    console.log('that password is not long enough')
 };
 
 // logical operators
