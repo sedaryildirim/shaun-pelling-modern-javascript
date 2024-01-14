@@ -77,3 +77,13 @@ setInterval(() => {
     index = (index + 1) % words.length; // This will loop back to the first word after the last one
 }, 2000); // 10000 milliseconds = 10 seconds
 
+const parasNewTwo = document.querySelectorAll('p');
+
+parasNewTwo.forEach(p => {
+    if (p.textContent.includes('error')) {
+        p.classList.add('error');
+    }
+    if (p.innerText.includes('success')) {
+        p.classList.add('success');
+    }
+});
