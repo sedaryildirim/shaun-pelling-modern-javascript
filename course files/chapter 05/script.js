@@ -80,3 +80,36 @@ const random = Math.random();
 console.log(random);
 // generates a random number between 0 and 100
 console.log(Math.round(random * 100));
+
+// primitive values
+// strings, numbers, booleans, null, undefined, symbols
+
+// reference values
+// all types of objects, arrays, functions, dates, all other objects
+
+// primitive values are stored on the stack
+// reference values are stored on the heap
+
+// primitive values are copied by their value
+// reference values are copied by their reference
+
+// primitive values are compared by their value
+// reference values are compared by their reference
+
+// primitive values are immutable
+// reference values are mutable
+
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+scoreOne = 100;
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+// reference values are copied by their reference
+
+userOne = { name: 'Sid', age: 30 };
+userTwo = userOne;
+
+console.log(userOne, userTwo);
