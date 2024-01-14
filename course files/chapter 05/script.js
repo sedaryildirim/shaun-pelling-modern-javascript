@@ -73,3 +73,10 @@ console.log(Math.round(area)); // rounds to nearest integer
 console.log(Math.floor(area)); // rounds down to nearest integer
 console.log(Math.ceil(area)); // rounds up to nearest integer
 console.log(Math.trunc(area)); // removes decimal points
+
+// random numbers
+// generates a random number between 0 and 1
+const random = Math.random();
+console.log(random);
+// generates a random number between 0 and 100
+console.log(Math.round(random * 100));
