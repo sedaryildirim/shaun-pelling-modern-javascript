@@ -43,7 +43,7 @@ Course files for Shaun Pelling's Modern Day Javascript for me to post my own sol
 
 ## Timeline
 ```
-14/01/2023 - completed chapter 04 & 05
+14/01/2023 - completed chapter 04, 05 & 06
 ```
 
 ```
