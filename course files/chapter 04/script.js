@@ -72,3 +72,16 @@ const bill = function(products, tax){
     }
     return total;
 }
+
+// possible solution
+const greetNew = () => {
+    return 'hello, world';
+};
+
+const bill = (products, tax = 0.1) => {
+    let total = 0;
+    for (let i = 0; i < products.length; i++) {
+        total += products[i] * (1 + tax);
+    }
+    return total;
+};
