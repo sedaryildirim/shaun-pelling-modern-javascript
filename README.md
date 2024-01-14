@@ -13,7 +13,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 
-<h3 align="center">Angela Yu Web Developer Course</h3>
+<h3 align="center">Shaun Pelling's Modern Day Java Script</h3>
 
   <p align="center">
     Course files for working through Shaun Pelling's Modern Javascript Course
@@ -43,7 +43,7 @@ Course files for Shaun Pelling's Modern Day Javascript for me to post my own sol
 
 ## Timeline
 ```
-14/01/2023 - completed chapter 04
+14/01/2023 - completed chapter 04 & 05
 ```
 
 ```
